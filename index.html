@@ -7,7 +7,6 @@
 	initial-sacle=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
-
 	<div class="site-container">
 		<div class="site-main">
 			<header class="site-header">
@@ -39,7 +38,6 @@
 
 			<section class="hero">
 				<div class="hero-basic"></div>
-				<div class="hero-gold"></div>
 				<div class="overlay">
 					<div class="wrap">
 						<h1 class="neon-text">Hello</h1>
@@ -50,94 +48,103 @@
 
 			<a name="about"></a>
 			<section class="about">
-				<div class="wrap">
-					<article class="about-me">
-						<h2>About the Guy...</h2>
-						<p>I am a team player who knows how to work with others in harmonious existence. I am specialized in front end technologies and yearning for more knowledge to stay sharp in the industry. I have demonstrated a set of skills building up projects on github. You can check out some of the work down below. My everyday is filled with session after session of learning. I am a huge believer in how one can learn through various channels of learning platforms. I put new knowledge through test by working with hands on projects. I am absolutely proficient with what compromises the basics of the front end: HTML, CSS, JavaScript, Bootstrap4, Sass, and jQuery. My passion lies in front end technologies and a bit of back end such as node.js. I always look for ways to better a result and aspire to take my skill set to the next level.
-						<br><br>Thanks for coming through!</p>
-					</article><!-- about me -->
-					<div class="portrait-picture">
-						<img src="images/portrait-picture.jpg" />
-					</div><!-- portrait picture -->
-				</div><!-- wrap -->
-	<!--  			<section class="nature">
-					<figure>
-						<div class="grass back"></div>
-						<object type="image/svg+xml" data="images/tree.svg" class="tree"></object>
-						<div class="grass front"></div>
-					</figure>
-				</section><!-- test section -->
-			</section>
-
-			<section class="portfolio"><a name="portfolio"></a>
-				<div class="wrap">
-					<div class="h2-wrap">
-						<h2>Portfolio under Construction</h2>
-						<div id="weatherBox"></div>
+				<div class="heading1-container">
+					<div class="overlay">
+						<h1>About Me</h1>
+					</div><!-- overlay -->
+				</div><!-- heading1-container -->
+				<div class="img-container">
+					<img src="images/portrait-picture.jpg" alt="portrait image of myself"/>
+					<div class="img-frame">
 					</div>
-				</div>
-			</section><!-- portfolio -->
+				</div><!-- img-portrait -->
+				<div class="container">
+					<article>
+						<p>I am specialized in front end technologies and yearning for more knowledge to stay sharp in the industry. I have demonstrated a set of skills building up projects on <a class="github-anchortag" href="https://github.com/Hoonielicious">github</a>. My everyday is filled with session after session of learning. I am a huge believer in how one can learn through various channels of learning platforms. <br />I put new knowledge through test by working on hands on projects. I am absolutely proficient with what compromises the fundamentals of the front end world: <strong>HTML, CSS, JavaScript, Bootstrap4, Sass, and jQuery</strong>. My passion lies in front end technologies and a bit of back end. I always look for ways to better a result and aspire to take my skill set to the next level.</p>
+					</article><!-- about-article -->
+				</div><!-- container -->
+			</section><!-- about -->
 
-			<section class="contact"><a name="contact"></a>
-				<div class="wrap">
-					<h2>Contact Me!</h2>
-					<div class="form">
+			<a name="portfolio"></a>
+			<section class="my-work">
+				<div class="heading1-container">
+					<div class="overlay">
+						<h1>My Work</h1>
+					</div><!-- overlay -->
+				</div><!-- heading1-container -->
+				<div class="container">
+					<div class="work-container">
+						<div id="work-1">
+							<div class="img-container">
+								<img src="./images/work-1.png" alt="work-1" />
+								<div class="img-frame">
+								</div>
+							</div><!-- img-container -->
+						</div><!-- work-1 -->
+					</div><!-- work-container -->
+				</div><!-- container -->
+			</section><!-- my-work -->
+
+			<div class="background-attachment">
+				<div class="overlay">
+				</div>
+			</div>
+
+			<section id="contact"><a name="contact"></a>
+				<div id="warning-initial">
+				</div>
+				<div class="heading1-container">
+					<div class="overlay">
+						<h1>Contact me!</h1>
+					</div><!-- overlay -->
+				</div><!-- heading1-container -->
+				<div class="form-container">
+					<form class="form">
 						<div class="control-group">
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name">
 							<span>*</span>
-						</div>
+						</div><!-- control-group -->
 						<div class="control-group">
 							<label for="email-address">Email</label>
 							<input type="text" name="email-address" id="email-address">
 							<span>*</span>
-						</div>
+						</div><!-- control-group -->
 						<div class="control-group">
 							<label for="phone">Phone</label>
 							<input type="text" name="phone" id="phone">
-						</div>
+						</div><!-- control-group -->
 						<div class="control-group">
-							<label for="textarea">Message</label>
 							<textarea id="textarea" rows="12" onfocus="this.value=''; this.onfocus=null;">Say Hello!</textarea>
 							<span>*</span>
-						</div>
-						<div class="control-group">
-							<input type="submit" value="Submit Form" id="submitbtn">
-						</div>
-					</div>
-				</div>
+						</div><!-- control-group -->
+						<input type="submit" value="Submit Form">
+					</form>
+				</div><!-- container -->
 			</section><!-- contact -->
 		</div><!-- site main -->
 
-	<footer class="site-footer">
-		<div class="wrap">
-			<div class="site-footer-logo">
-				<a href ="#"><img src="images/logo_white.svg" alt="white logo" /></a>
-				<span>&copy;</span><span>&nbsp;	Hoonie Sun</span>
-			</div><!-- site footer logo -->
-			<nav class="social-menu">
-				 <ul>
-				 	<li><a href="#" class="twitter"></a></li>
-				 	<li><a href="https://www.facebook.com/hoonie.sun" class="facebook"></a></li>
-				 	<li><a href="#" class="linkedin"></a></li>
-				 </ul>
-			</nav><!-- social-menu -->
-		</div><!-- wrap -->
-	</footer><!-- site-footer -->
-</div><!-- site-container -->
-
-
-
+		<footer class="site-footer">
+			<div class="wrap">
+				<div class="site-footer-logo">
+					<a href ="#"><img src="images/logo_white.svg" alt="white logo" /></a>
+					<span>&copy;</span><span>&nbsp;	Hoonie Sun</span>
+				</div><!-- site footer logo -->
+				<nav class="social-menu">
+					 <ul>
+					 	<li><a href="#" class="twitter"></a></li>
+					 	<li><a href="https://www.facebook.com/hoonie.sun" class="facebook"></a></li>
+					 	<li><a href="#" class="linkedin"></a></li>
+					 </ul>
+				</nav><!-- social-menu -->
+			</div><!-- wrap -->
+		</footer><!-- site-footer -->
+	</div><!-- site-container -->
 	<!-- Google Map -->
 	<!--<div class="google-map">
 		</div>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_c5HwPAKAxmYwpOyYk0jMMrVvK-F_op4&callback=initMap" type="text/javascript"></script> -->
-
-
-
 	<script type="text/javascript" src="js/script.js"></script>
 	<script src="https://use.fontawesome.com/93ac7059de.js"></script>
-
-
 </body>
 </html>
